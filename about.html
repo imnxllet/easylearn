@@ -8,7 +8,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Beryllium &mdash; Free Website Template, Free HTML5 Template by FreeHTML5.co</title>
+	<title>ABOUT US</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -45,11 +45,23 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
+
+	<!--Jquery-->
+	<script src="js/jquery-3.2.1.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<style type="text/css">
+		h2{
+			    font-size: 40px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #4d4d4d;
+    font-weight: 300;
+		}
+	</style>
 	</head>
 	<body>
 		
@@ -61,32 +73,38 @@
 			<div class="gtco-container">
 				
 				<div class="row">
-					<div class="col-sm-2 col-xs-12">
-						<div id="gtco-logo"><a href="index.html">Beryllium</div>
+
+					<div class="col-sm-4 col-xs-12">
+						
+						<div id="gtco-logo">
+							<img src="images/logo.jpg" alt="" class="img-logo" align="left">
+						</div>
 					</div>
-					<div class="col-xs-10 text-right menu-1">
+					<div class="col-sm-8 text-right menu-1">
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li class="active"><a href="about.html">About</a></li>
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
 							<li class="has-dropdown">
-								<a href="services.html">Services</a>
+								<a href="#">Why us</a>
 								<ul class="dropdown">
-									<li><a href="#">Web Design</a></li>
-									<li><a href="#">eCommerce</a></li>
-									<li><a href="#">Branding</a></li>
-									<li><a href="#">API</a></li>
+									<li><a href="./canada.html">Canada Overview</a></li>
+									<li><a href="./whyus.html">Edgecation Advantage</a></li>
+			
 								</ul>
 							</li>
 							<li class="has-dropdown">
-								<a href="#">Dropdown</a>
+								<a href="services.html">Tours</a>
 								<ul class="dropdown">
-									<li><a href="#">HTML5</a></li>
-									<li><a href="#">CSS3</a></li>
-									<li><a href="#">Sass</a></li>
-									<li><a href="#">jQuery</a></li>
+									<li><a href="#">TOUR PLANS</a></li>
+									<li><a href="#">COURSES</a></li>
+									<li><a href="./residence.html">Accomodation</a></li>
+									<li><a href="#">VISA INFO</a></li>
+									<li><a href="./university.html">UNIVERSITY RANKING</a></li>
+									<li><a href="#">ATTRACTIONS</a></li>
 								</ul>
 							</li>
-							<li><a href="portfolio.html">Portfolio</a></li>
+							
+							<li><a href="portfolio.html">Partners</a></li>
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</div>
@@ -100,17 +118,23 @@
 		<div class="gtco-section">
 			<div class="gtco-container">
 				<div class="row gtco-heading">
-					<div class="col-md-7 text-left">
-						<h2>Our Team</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis, rhoncus euismod erat tincidunt. Donec tincidunt volutpat erat.</p>
+					<div class="col-md-12 text-left">
+						<h2>Our Mission</h2>
+						<p>Our mission is to provide the best experience for students who wish to explore different parts of the world through study tour. Students will not only learn the difference in culture and lifestyle, they can also get an impression of the industry at which they are interested outside of their country. We hope to lead students into discovering their true interests with intact course content while providing them the opportunity to develop valuable relationships aboard.
+						</p>
 					</div>
-					<div class="col-md-3 col-md-push-2 text-center">
-						<p class="mt-md"><a href="#" class="btn btn-special btn-block">Join our team</a></p>
-					</div>
+
+					<!--<div class="col-md-3 col-md-push-2 text-center">
+						<p class="mt-md"><a href="#" class="btn btn-special btn-block">View Tour Info</a></p>
+					</div>-->
 				</div>
+				
+		
+				<!--
 				<div class="row">
 
 					<div class="col-md-12">
+						<h2>Our Mission</h2>
 						<div class="owl-carousel owl-carousel-carousel">
 							<div class="item">
 								<div class="gtco-staff">
@@ -125,6 +149,7 @@
 									</ul>
 								</div>
 							</div>
+
 							<div class="item">
 								<div class="gtco-staff">
 									<img src="images/staff_2.jpg" alt="" class="img-responsive">
@@ -138,6 +163,7 @@
 									</ul>
 								</div>
 							</div>
+
 							<div class="item">
 								<div class="gtco-staff">
 									<img src="images/staff_3.jpg" alt="" class="img-responsive">
@@ -152,92 +178,15 @@
 								</div>
 							</div>
 
-							<div class="item">
-								<div class="gtco-staff">
-									<img src="images/staff_1.jpg" alt="" class="img-responsive">
-									<h2>Jane Simpson</h2>
-									<p class="role">Architect</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis, rhoncus euismod erat tincidunt. Donec tincidunt volutpat erat.</p>
-									<ul class="fh5co-social">
-										<li><a href="#"><i class="icon-facebook"></i></a></li>
-										<li><a href="#"><i class="icon-twitter"></i></a></li>
-										<li><a href="#"><i class="icon-linkedin"></i></a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="item">
-								<div class="gtco-staff">
-									<img src="images/staff_2.jpg" alt="" class="img-responsive">
-									<h2>Richard Wilson</h2>
-									<p class="role">Civil Engineer</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis, rhoncus euismod erat tincidunt. Donec tincidunt volutpat erat.</p>
-									<ul class="fh5co-social">
-										<li><a href="#"><i class="icon-facebook"></i></a></li>
-										<li><a href="#"><i class="icon-twitter"></i></a></li>
-										<li><a href="#"><i class="icon-linkedin"></i></a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="item">
-								<div class="gtco-staff">
-									<img src="images/staff_3.jpg" alt="" class="img-responsive">
-									<h2>Craig Davidson</h2>
-									<p class="role">Engineer</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis, rhoncus euismod erat tincidunt. Donec tincidunt volutpat erat.</p>
-									<ul class="fh5co-social">
-										<li><a href="#"><i class="icon-facebook"></i></a></li>
-										<li><a href="#"><i class="icon-twitter"></i></a></li>
-										<li><a href="#"><i class="icon-linkedin"></i></a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="item">
-								<div class="gtco-staff">
-									<img src="images/staff_1.jpg" alt="" class="img-responsive">
-									<h2>Jane Simpson</h2>
-									<p class="role">Architect</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis, rhoncus euismod erat tincidunt. Donec tincidunt volutpat erat.</p>
-									<ul class="fh5co-social">
-										<li><a href="#"><i class="icon-facebook"></i></a></li>
-										<li><a href="#"><i class="icon-twitter"></i></a></li>
-										<li><a href="#"><i class="icon-linkedin"></i></a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="item">
-								<div class="gtco-staff">
-									<img src="images/staff_2.jpg" alt="" class="img-responsive">
-									<h2>Richard Wilson</h2>
-									<p class="role">Civil Engineer</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis, rhoncus euismod erat tincidunt. Donec tincidunt volutpat erat.</p>
-									<ul class="fh5co-social">
-										<li><a href="#"><i class="icon-facebook"></i></a></li>
-										<li><a href="#"><i class="icon-twitter"></i></a></li>
-										<li><a href="#"><i class="icon-linkedin"></i></a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="item">
-								<div class="gtco-staff">
-									<img src="images/staff_3.jpg" alt="" class="img-responsive">
-									<h2>Craig Davidson</h2>
-									<p class="role">Engineer</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis, rhoncus euismod erat tincidunt. Donec tincidunt volutpat erat.</p>
-									<ul class="fh5co-social">
-										<li><a href="#"><i class="icon-facebook"></i></a></li>
-										<li><a href="#"><i class="icon-twitter"></i></a></li>
-										<li><a href="#"><i class="icon-linkedin"></i></a></li>
-									</ul>
-								</div>
-							</div>
 						</div>
 					</div>
 					
 				</div>
 			</div>
 		</div>
+	-->
 		<!-- END .gtco-services -->
-
+		<!--
 		<div class="gtco-section">
 			<div class="gtco-container">
 				<div class="row">
@@ -270,7 +219,9 @@
 						</ul>
 						<p><a href="#" class="btn btn-sm btn-special">More News</a></p>
 					</div>
+				-->
 					<!-- END News -->
+					<!--
 					<div class="col-md-5 col-md-push-1 gtco-testimonials">
 						<h2>Testimonials</h2>
 						<blockquote>
@@ -285,64 +236,116 @@
 				</div>
 			</div>
 		</div>
+	-->
 		<!-- END  -->
 
 		<div class="gtco-section gto-features">
 			<div class="gtco-container">
+				<h2>Our Team</h2><br>
 				<div class="row">
+
 					<div class="col-md-4">
+						<img src="images/hugo.jpg" alt="" class="img-staff" align="right">
+
+					</div>
+					<div class="col-md-6">
 						<div class="feature-left">
-							<i class="ti-zip icon"></i>
+							
 							<div class="copy">
-								<h3>Architect</h3>
+								<h3>Hugo Chang</h3>
+								<p>The founder of University of Toronto International Cantonese Union(UTICU). In the past 3 years, he actively participated in the event of growing UTICU. The club has had exponential growth and it is now serving more than 600 students at UofT. He created a enthusiastic environment in UofT for which VISA students from China feel belonged and welcomed. 
+	His understandings for the needs of chinese students are developed through his past experience dealing with chinese VISA students. In the past, he participated in planning an orientation event which allow students to explore the university before class starts. As a result, students gained more understanding towards their interests and lifestyle of a UofT student. His background also allowed him to develop sharp insight in the needs of VISA students. He grew up in Canada with a chinese background that helps him in acknowledging the value of chinese people and the social norm of canadian. 
+</p>
+								<!--<p><a href="#" class="gtco-more">Learn more</a></p>-->
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<br><br>
+				<div class="row">
+
+					<div class="col-md-4">
+						<img src="images/nat.jpg" alt="" class="img-staff" align="right">
+
+					</div>
+					<div class="col-md-6">
+						<div class="feature-left">
+							
+							<div class="copy">
+								<h3>Natalie Deng</h3>
+								<p>Natalie is an international student at University of Toronto Mississauga. She is working towards a specialist degree in digital enterprise management. She is also the founder and current president of UTM CHANNEL6ix film club. Founded in 2016, CHNNEL6ix has grown to 800 members and holds a variety of events monthly. Starting and growing an organization give her experience in communicating with administration and accommodating the needs of visa students. She hopes to bridge Chinese and western cultures while providing attentive service to a Chinese group. 
+</p>
+								<p><a href="#" class="gtco-more">Learn more</a></p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<br><br>
+				<div class="row">
+
+					<div class="col-md-4">
+						<img src="images/foura.jpg" alt="" class="img-staff" align="right">
+
+					</div>
+					<div class="col-md-6">
+						<div class="feature-left">
+							
+							<div class="copy">
+								<h3>Foura Li</h3>
 								<p>Lorem ipsum dolor sit ameteista, consectetur adipiscing is not elitistaris.</p>
 								<p><a href="#" class="gtco-more">Learn more</a></p>
 							</div>
 						</div>
 					</div>
+
+				</div>
+				<br><br>
+				<div class="row">
+
 					<div class="col-md-4">
+						<img src="images/chris.jpg" alt="" class="img-staff" align="right">
+
+					</div>
+					<div class="col-md-6">
 						<div class="feature-left">
-							<i class="ti-hummer icon"></i>
+							
 							<div class="copy">
-								<h3>Planning</h3>
+								<h3>Chris Lu</h3>
 								<p>Lorem ipsum dolor sit ameteista, consectetur adipiscing is not elitistaris.</p>
 								<p><a href="#" class="gtco-more">Learn more</a></p>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div class="feature-left">
-							<i class="ti-plug icon"></i>
-							<div class="copy">
-								<h3>Parks &amp; Events</h3>
-								<p>Lorem ipsum dolor sit ameteista, consectetur adipiscing is not elitistaris.</p>
-								<p><a href="#" class="gtco-more">Learn more</a></p>
-							</div>
-						</div>
-					</div>
+
 				</div>
 			</div>
 		</div>
+	</div>
 
 		<footer id="gtco-footer" class="gtco-section" role="contentinfo">
 			<div class="gtco-container">
 				<div class="row row-pb-md">
-					<div class="col-md-4 gtco-widget gtco-footer-paragraph">
-						<h3>Beryllium</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis, rhoncus euismod.</p>
+					<div class="col-md-6 gtco-widget gtco-footer-paragraph">
+						<h3>Edgecation Learning Service Inc.</h3>
+						<p>Office: </p>
+						<p>Telephone: </p>
+						<p>Email: </p>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-6">
 						<div class="row">
 							<div class="col-md-6 gtco-footer-link">
-								<h3>Links</h3>
+								<h3>Popular Pages</h3>
 								<ul class="gtco-list-link">
-									<li><a href="#">Home</a></li>
-									<li><a href="#">Features</a></li>
-									<li><a href="#">Products</a></li>
-									<li><a href="#">Testimonial</a></li>
-									<li><a href="#">Contact</a></li>
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">Tour Information</a></li>
+									<li><a href="#">Attractions</a></li>
+									<li><a href="#">University Ranking</a></li>
+									<li><a href="#">Join Us</a></li>
 								</ul>
 							</div>
+							<!--
 							<div class="col-md-6 gtco-footer-link">
 								<h3>Work</h3>
 								<ul class="gtco-list-link">
@@ -352,19 +355,23 @@
 									<li><a href="#">Manila Park</a></li>
 								</ul>
 							</div>
+						-->
 						</div>
 					</div>
+					<!--
 					<div class="col-md-4 gtco-footer-subscribe">
 						<form class="form-inline">
 						  <div class="form-group">
 						    <label class="sr-only" for="exampleInputEmail3">Email address</label>
 						    <input type="email" class="form-control" id="" placeholder="Email">
 						  </div>
-						  <button type="submit" class="btn btn-primary">Send</button>
+						  <button type="submit" class="btn btn-primary">Subscribe</button>
 						</form>
 					</div>
+				-->
 				</div>
 			</div>
+			<!--
 			<div class="gtco-copyright">
 				<div class="gtco-container">
 					<div class="row">
@@ -377,6 +384,7 @@
 					</div>
 				</div>
 			</div>
+		-->
 		</footer>
 		<!-- END footer -->
 
