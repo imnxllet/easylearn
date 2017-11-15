@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #52D681;
+  color: #D22251;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #52D681;
+  color: #D22251;
   outline: none;
   text-decoration: none;
 }
@@ -63,7 +63,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
+  color: #0D4C99;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -71,17 +71,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #52D681;
+  background: #D22251;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #52D681;
+  background: #D22251;
 }
 
 ::selection {
   color: #fff;
-  background: #52D681;
+  background: #D22251;
 }
 
 .gtco-container {
@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .gtco-nav #gtco-logo a {
   vertical-align: middle;
-  color: #000;
+  color: #D22251;
 
 }
 .gtco-nav #gtco-logo em {
@@ -138,6 +138,9 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   margin: .4em 0 0 0;
 }
+.gtco-nav ul li.active > a{
+  color: #D22251;
+}
 .gtco-nav ul li {
   padding: 0;
   margin: 0;
@@ -154,13 +157,13 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-nav ul li a {
   font-size: 16px;
   padding: 30px 10px;
-  color: #cccccc;
+  color: #0D4C99;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 .gtco-nav ul li a:hover, .gtco-nav ul li a:focus, .gtco-nav ul li a:active {
-  color: #000;
+  color: #D22251;
 }
 .gtco-nav ul li.has-dropdown {
   position: relative;
@@ -200,7 +203,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 0;
   text-align: left;
-  background: #000;
+  background: #D22251;
   padding: 20px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -219,7 +222,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 0;
   position: absolute;
   pointer-events: none;
-  border-bottom-color: #000;
+  border-bottom-color: #D22251;
   border-width: 8px;
   margin-left: -8px;
 }
@@ -233,22 +236,23 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-nav ul li.has-dropdown .dropdown li a {
   padding: 2px 0;
   display: block;
-  color: #999999;
+  color: white;
   line-height: 1.2;
   text-transform: none;
   font-size: 15px;
 }
 .gtco-nav ul li.has-dropdown .dropdown li a:hover {
-  color: #fff;
+  color: white;
+  font-weight: bold;
 }
 .gtco-nav ul li.has-dropdown .dropdown li.active > a {
-  color: #000 !important;
+  color: #D22251 !important;
 }
 .gtco-nav ul li.has-dropdown:hover a, .gtco-nav ul li.has-dropdown:focus a {
-  color: #000;
+  color: #D22251;
 }
 .gtco-nav ul li.btn-cta a {
-  color: #52D681;
+  color: #D22251;
 }
 .gtco-nav ul li.btn-cta a span {
   background: #fff;
@@ -271,7 +275,7 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
 }
 .gtco-nav ul li.active > a {
-  color: #000 !important;
+  color: #D22251 !important;
 }
 
 @media screen and (max-width: 480px) {
@@ -315,7 +319,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 0 !important;
 }
 .gtco-cover a {
-  color: #52D681;
+  color: #D22251;
 }
 .gtco-cover a:hover {
   color: white;
@@ -452,11 +456,15 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #gtco-footer {
-  background: #262626;
+  background: #e6e6e6;
   padding: 7em 0 0 0 !important;
   margin-bottom: 0 !important;
   width: 100%;
   float: left;
+}
+#gtco-footer p{
+  color: #D22251;
+  font-family: "Montserrat", sans-serif;
 }
 #gtco-footer a:hover {
   color: #fff !important;
@@ -473,7 +481,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 15px 20px !important;
 }
 #gtco-footer .gtco-cta .btn-white.btn-outline:hover {
-  color: #000 !important;
+  color: #D22251 !important;
 }
 #gtco-footer .gtco-footer-paragraph h3 {
   color: #fff;
@@ -569,7 +577,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 5px;
 }
 .gtco-staff h2 a, .gtco-item h2 a {
-  color: #000 !important;
+  color: #D22251 !important;
 }
 .gtco-staff p, .gtco-item p {
   margin-bottom: 30px;
@@ -596,10 +604,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .gtco-staff .fh5co-social li a, .gtco-item .fh5co-social li a {
   font-size: 20px;
-  color: #52d681;
+  color: #D22251;
 }
 .gtco-staff .fh5co-social li a:hover, .gtco-item .fh5co-social li a:hover {
-  color: #000;
+  color: #D22251;
 }
 
 .gtco-news ul {
@@ -622,8 +630,15 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  color: #52D681;
+  color: #D22251;
 }
+
+.wechat-img{
+  width: 40%;
+  border-style: solid;
+  border-width: 2px;
+}
+
 .gtco-news ul li a .post-date {
   text-transform: uppercase;
   letter-spacing: .05em;
@@ -641,7 +656,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 0;
 }
 .gtco-news ul li a:hover h3 {
-  color: #000;
+  color: #D22251;
 }
 
 .gtco-social-icons {
@@ -662,7 +677,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #52D681;
+  color: #D22251;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -687,7 +702,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .gtco-contact-info ul li:before {
-  color: #cccccc;
+  color: #0D4C99;
   position: absolute;
   left: 0;
   top: .05em;
@@ -814,7 +829,7 @@ form label {
 #gtco-counter .counter {
   font-size: 50px;
   margin-bottom: 10px;
-  color: #52D681;
+  color: #D22251;
   font-weight: 100;
   display: block;
 }
@@ -841,7 +856,7 @@ form label {
   height: 70px;
 }
 #gtco-counter .icon i:before {
-  color: #cccccc;
+  color: #0D4C99;
   display: block;
   text-align: center;
   margin-left: 3px;
@@ -874,7 +889,7 @@ form label {
   font-size: 40px;
   margin-bottom: 10px;
   line-height: 1.5;
-  color: #4d4d4d;
+  color: #D22251;
   font-weight: 300;
 }
 .gtco-heading p {
@@ -889,7 +904,7 @@ blockquote {
 }
 blockquote p {
   font-style: italic;
-  color: #000;
+  color: #D22251;
 }
 blockquote p > cite {
   font-size: 14px;
@@ -990,7 +1005,7 @@ blockquote p > cite {
 
 .uppercase {
   font-size: 14px;
-  color: #000;
+  color: #D22251;
   margin-bottom: 10px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1165,9 +1180,9 @@ blockquote p > cite {
 }
 
 .btn-primary {
-  background: #52D681;
+  background: #D22251;
   color: #fff;
-  border: 2px solid #52D681 !important;
+  border: 2px solid #D22251 !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #67db90 !important;
@@ -1175,11 +1190,11 @@ blockquote p > cite {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #52D681;
-  border: 2px solid #52D681;
+  color: #D22251;
+  border: 2px solid #D22251;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #52D681;
+  background: #D22251;
   color: #fff;
 }
 
@@ -1261,11 +1276,11 @@ blockquote p > cite {
 
 .btn-white {
   background: #fff;
-  color: #000;
+  color: #D22251;
   border: 2px solid #fff;
 }
 .btn-white:hover, .btn-white:focus, .btn-white:active {
-  color: #000;
+  color: #D22251;
   background: #fff;
   border-color: #fff;
 }
@@ -1275,28 +1290,41 @@ blockquote p > cite {
 }
 .btn-white.btn-outline:hover, .btn-white.btn-outline:focus, .btn-white.btn-outline:active {
   background: #fff;
-  color: #000 !important;
+  color: #D22251 !important;
   border: 2px solid #fff;
 }
+@media screen and (max-width: 1000px) {
+#emailusbutton{
+  left: auto;
+  margin-left: 80px;
+  width: 50%;
+}
+}
+@media screen and (max-width: 768px) {
 
+#wechat{
+  margin-left: 10%;
+    
+}
+}
 .btn-special {
-  background: #52D681;
-  color: #2f9051;
-  border: 2px solid #52D681;
+  background: #D22251;
+  color: #fff;
+  border: 2px solid #D22251;
 }
 .btn-special:hover, .btn-special:focus, .btn-special:active {
   color: #fff;
-  background: #52D681;
-  border-color: #52D681;
+  background: #D22251;
+  border-color: #D22251;
 }
 .btn-special.btn-outline {
   color: #fff;
-  border: 2px solid #52D681;
+  border: 2px solid #D22251;
 }
 .btn-special.btn-outline:hover, .btn-special.btn-outline:focus, .btn-special.btn-outline:active {
   background: #fff;
-  color: #2f9051;
-  border: 2px solid #52D681;
+  color: #fff;
+  border: 2px solid #D22251;
 }
 
 .btn-outline {
@@ -1349,7 +1377,7 @@ blockquote p > cite {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #52D681;
+  border-color: #D22251;
 }
 
 .row-pb-md {
@@ -1402,7 +1430,7 @@ blockquote p > cite {
   margin-left: 0px;
 }
 .gtco-nav .gtco-contact ul li a i {
-  color: #52D681;
+  color: #D22251;
 }
 .gtco-nav .gtco-contact ul li a:hover i {
   color: #fff;
@@ -1484,11 +1512,11 @@ blockquote p > cite {
 
 .owl-carousel-fullwidth.owl-theme .owl-controls .owl-nav .owl-next i,
 .owl-carousel-fullwidth.owl-theme .owl-controls .owl-nav .owl-prev i {
-  color: #000;
+  color: #D22251;
 }
 .owl-carousel-fullwidth.owl-theme .owl-controls .owl-nav .owl-next:hover i,
 .owl-carousel-fullwidth.owl-theme .owl-controls .owl-nav .owl-prev:hover i {
-  color: #000;
+  color: #D22251;
 }
 
 @media screen and (max-width: 768px) {
@@ -1528,7 +1556,7 @@ blockquote p > cite {
   transition: 0.5s;
 }
 .owl-carousel-carousel.owl-theme .owl-controls .owl-nav [class*="owl-"]:hover i, .owl-carousel-carousel.owl-theme .owl-controls .owl-nav [class*="owl-"]:focus i {
-  color: #000;
+  color: #D22251;
 }
 
 .gtco-more {
@@ -1538,7 +1566,7 @@ blockquote p > cite {
   letter-spacing: .05em;
 }
 .gtco-more:hover {
-  color: #000;
+  color: #D22251;
 }
 
 .gto-features {
@@ -1572,7 +1600,7 @@ blockquote p > cite {
 .feature-left > .icon {
   float: left;
   font-size: 34px;
-  color: #cccccc;
+  color: #0D4C99;
 }
 .feature-left > .copy {
   padding-left: 30px;
@@ -1650,7 +1678,7 @@ blockquote p > cite {
 .owl-theme .owl-dots .owl-dot span {
   width: 10px;
   height: 10px;
-  background: #cccccc;
+  background: #0D4C99;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
@@ -1661,7 +1689,7 @@ blockquote p > cite {
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: none;
-  background: #4d4d4d;
+  background: #D22251;
 }
 
 /*# sourceMappingURL=style.css.map */
