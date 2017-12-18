@@ -1574,6 +1574,11 @@ blockquote p > cite {
 }
 .img-staff {
   display: block;
+  max-width: 30%;
+  height: auto;
+}
+.img-tour{
+    display: block;
   max-width: 50%;
   height: auto;
 }
