@@ -111,9 +111,11 @@
 						<p>We can be reached by WeChat, Email, and Phone.</p>
 
 					</div>
-					<div class="col-md-3 col-md-push-2 text-center" style="left: 0;" id="emailusbutton">
+					<!--<div class="col-md-3 col-md-push-2 text-center" style="left: 0;" id="emailusbutton">
 						<p class="mt-md"><a href="mailto:edgecationlearningservice@hotmail.com" class="btn btn-special btn-block">Email us</a></p>
-					</div>
+					</div>-->
+					
+
 				</div>
 				<div class="row">
 					<div class="col-md-6" id="wechat">
@@ -144,16 +146,47 @@
 						</form>-->
 					</div>
 					<div class="col-md-5 col-md-push-1">
-						<div class="gtco-contact-info">
+
+						<form method="POST" action="http://formspree.io/info@edgecation.ca">
+							<h2>Fill this form and we'll contact you!</h2>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Name</label>
+    <input  class="form-control" placeholder="Your Name*" name="Name">
+    <br/><label for="exampleInputEmail1">Email Address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email*" name="email">
+
+    <br/><label for="exampleInputEmail1">Phone Number</label>
+    <input  class="form-control" placeholder="Your Phone#" name="Phone">
+    <br/><label for="exampleInputEmail1">Your Age</label>
+    <input  class="form-control" placeholder="Your Age" name="Age">
+    <br/><label >Which camp interests you? (You can check all.)</label>
+    <label class="checkbox-inline"><input type="checkbox" value="">Leadership Camp</label>
+<label class="checkbox-inline"><input type="checkbox" value="">Branding Camp</label>
+<label class="checkbox-inline"><input type="checkbox" value="">Media Camp</label>
+<br/><br/><label >WeChat Account</label>
+    <input  class="form-control" placeholder="Your WeChat(Optional)" name="Wechat">
+    <br/><label for="exampleInputEmail1">You can leave a message to us!</label>
+    <textarea class="form-control" rows="5" name="comment"></textarea>
+
+    <small id="emailHelp" class="form-text text-muted">We'll never share your information with anyone else.</small>
+  	<input type="text" name="_gotcha" style="display:none" />
+  <input type="hidden" name="_next" value="./thanks.html">
+
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+						<br/><br/><br/><div class="gtco-contact-info">
 							<h3>Our Address</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							
 							<ul >
-								<li class="address">198 West 21th Street, Suite 721 New York NY 10016</li>
-								<li class="phone"><a href="tel://1234567890">1235 2355 980</a></li>
-								<li class="email"><a href="mailto:edgecationlearningservice@hotmail.com">edgecationlearningservice@hotmail.com</a></li>
-								<li class="url"><a href="#">www.edgecation.com</a></li>
+								<li class="address">8339 Kennedy Rd, Markham, ON L3R 4P9, Canada</li>
+								<li class="phone"><a href="tel://14163580321">+1 (416)358-0321</a></li>
+								<li class="email"><a href="mailto:info@edgecation.ca">info@edgecation.ca</a></li>
+								<li class="url"><a href="./index.html">www.edgecation.ca</a></li>
 							</ul>
 						</div>
+
 					</div>
 				</div>
 			</div>
