@@ -5,8 +5,12 @@ files_o=['index.html', 'residence.html', 'attraction.html', 'about.html', 'whyus
 
 i = 0
 file_bar = open('bar.html', 'r', encoding='utf8')
-subsititute = file_bar.read()
+bar = file_bar.read()
 file_bar.close()
+
+file_footer = open('footer.html', 'r', encoding='utf8')
+footer= file_footer.read()
+file_footer.close()
 
 for file_t in files:
 
@@ -15,7 +19,7 @@ for file_t in files:
 	file.close()
 
 	#print(subsititute)
-	final = pystache.render(template, {'bar': subsititute})
+	final = pystache.render(template, {'bar': bar, 'footer': footer})
 
 	f = open(files_o[i], 'w', encoding='utf8')
 	f.write(final)  # python will convert \n to os.linesep
