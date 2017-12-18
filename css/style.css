@@ -1584,8 +1584,16 @@ blockquote p > cite {
 }
 .img-logo {
   display: block;
-  max-width: 25%;
+  max-width: 35%;
   height: auto;
+}
+
+@media screen and (max-width: 768px) {
+.img-logo {
+  display: block;
+  max-width: 15%;
+  height: auto;
+}
 }
 .img-graph {
   display: block;
