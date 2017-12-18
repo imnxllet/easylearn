@@ -1,7 +1,7 @@
 import pystache 
 
-files=['index_template.html', 'residence_template.html', 'attraction_template.html', 'about_template.html', 'whyus_template.html', 'university_template.html', 'contact_template.html', 'canada_template.html','thanks_template.html']
-files_o=['index.html', 'residence.html', 'attraction.html', 'about.html', 'whyus.html', 'university.html', 'contact.html', 'canada.html','thanks.html']
+files=['index_template.html', 'residence_template.html', 'attraction_template.html', 'about_template.html', 'whyus_template.html', 'university_template.html', 'contact_template.html', 'canada_template.html','thanks_template.html', 'tours_template.html']
+files_o=['index.html', 'residence.html', 'attraction.html', 'about.html', 'whyus.html', 'university.html', 'contact.html', 'canada.html','thanks.html', 'tours.html']
 
 i = 0
 file_bar = open('bar.html', 'r', encoding='utf8')
