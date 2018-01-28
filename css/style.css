@@ -1573,8 +1573,8 @@ blockquote p > cite {
   border-top: 1px solid #e6e6e6;
 }
 .img-staff {
-  display: block;
-  max-width: 30%;
+  /*display: block;*/
+  max-width: 80%;
   height: auto;
 }
 .img-tour{
@@ -1608,7 +1608,13 @@ blockquote p > cite {
 @media screen and (max-width: 768px) {
   .feature-left {
     margin-bottom: 20px;
-  }
+  }}
+  @media screen and (max-width: 1000px) {
+  .img-staff {
+  /*display: block;*/
+  max-width: 30%;
+  height: auto;
+}
 }
 .feature-left > .icon {
   float: left;
