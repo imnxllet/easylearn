@@ -568,6 +568,11 @@ h1, h2, h3, h4, h5, h6, figure {
   .gtco-staff, .gtco-item {
     margin-bottom: 3em;
   }
+  .wechat-img{
+  width: 100%;
+  /*border-style: solid;
+  border-width: 2px;*/
+}
 }
 .gtco-staff img, .gtco-item img {
   margin-bottom: 40px !important;
@@ -634,9 +639,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .wechat-img{
-  width: 40%;
-  border-style: solid;
-  border-width: 2px;
+  width: 20%;
+  /*border-style: solid;
+  border-width: 2px;*/
 }
 
 .gtco-news ul li a .post-date {
