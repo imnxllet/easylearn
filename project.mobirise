@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "My Site",
+    "name": "Edgecation",
     "currentPage": "page4.html",
     "theme": {
       "name": "mobirise4",
@@ -37,7 +37,15 @@
     "siteFonts": [],
     "versionFirst": "4.7.6",
     "uniqCompNum": 40,
-    "versionPublish": "4.8.1"
+    "versionPublish": "4.8.1",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "siteUrl": "https://www.edgecation.ca",
+    "sitemapSwitcherAuto": "on",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-110869476-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-110869476-1');\r\n</script>\r\n<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\r\n<script>\r\n     (adsbygoogle = window.adsbygoogle || []).push({\r\n          google_ad_client: \"ca-pub-2631631278335253\",\r\n          enable_page_level_ads: true\r\n     });\r\n</script>",
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "index.html": {
